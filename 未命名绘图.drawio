@@ -1,9 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:02:57.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="tmWfXoI0-JefQXHhj0Te" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:19:43.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="0yXR_pSshf-THnUy6KLD" version="15.7.0" type="github">
   <diagram id="qlDedYnUvZH7T_k4Barl" name="第 1 页">
     <mxGraphModel dx="2893" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-1" target="92X7-NY_xrWB8qJ1SJ7b-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-5" value="计算属性深依赖变化&lt;br&gt;其自身依赖状态与其派生的状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="Ygh5BzvHHhYYtEjXGNVl-4">
+          <mxGeometry x="0.0988" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="92X7-NY_xrWB8qJ1SJ7b-1" value="UP_TO_DATE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -19,7 +29,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-9" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-7" vertex="1" connectable="0">
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-9" value="init" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-7" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -40,8 +50,11 @@
         <mxCell id="92X7-NY_xrWB8qJ1SJ7b-2" value="NOT_TRACKING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-179" y="577" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-3" target="Ygh5BzvHHhYYtEjXGNVl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="92X7-NY_xrWB8qJ1SJ7b-3" value="POSSIBLY_STALE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="489" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="577" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="92X7-NY_xrWB8qJ1SJ7b-4" value="STALE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="820" width="120" height="60" as="geometry" />
@@ -82,6 +95,55 @@
         <mxCell id="92X7-NY_xrWB8qJ1SJ7b-21" value="派生重新处理后&lt;br&gt;依赖与派生状态具变" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-20" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ygh5BzvHHhYYtEjXGNVl-8" target="92X7-NY_xrWB8qJ1SJ7b-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="750" as="sourcePoint" />
+            <mxPoint x="530" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-7" value="结果变化&lt;br&gt;其自身依赖状态与其派生的状态" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="Ygh5BzvHHhYYtEjXGNVl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-8" value="重新计算" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=23;" vertex="1" parent="1">
+          <mxGeometry x="780" y="707" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ygh5BzvHHhYYtEjXGNVl-8" target="92X7-NY_xrWB8qJ1SJ7b-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="750" as="sourcePoint" />
+            <mxPoint x="600" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-11" value="结果未变&lt;br&gt;其自身依赖状态与其派生的状态" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="Ygh5BzvHHhYYtEjXGNVl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ygh5BzvHHhYYtEjXGNVl-8" target="Ygh5BzvHHhYYtEjXGNVl-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="760" as="sourcePoint" />
+            <mxPoint x="700" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="727" />
+              <mxPoint x="970" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-13" value="计算属性作为派生的状态、其收集的依赖的状态" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" connectable="0" vertex="1" parent="Ygh5BzvHHhYYtEjXGNVl-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ygh5BzvHHhYYtEjXGNVl-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="92X7-NY_xrWB8qJ1SJ7b-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="740" as="sourcePoint" />
+            <mxPoint x="350" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="320" />
+              <mxPoint x="370" y="320" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>

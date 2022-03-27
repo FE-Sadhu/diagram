@@ -1,3 +1,3 @@
  https://app.diagrams.net/
- 
- /imgs 是 PicGo 默认图床
+
+ /img 是默认图床，配合 jsDelivr CDN 使用

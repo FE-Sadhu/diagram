@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T10:58:56.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="6ckrDnpXgeuFvcInL1or" version="15.7.0" type="github"><diagram id="qlDedYnUvZH7T_k4Barl" name="第 1 页">7ZpZc+I4EIB/jR5JWb79aAOZYzNJamFrkifKYAHeNRZjiwHm12/LlvHNTZKamqdIrVYLd7c+tewgpbvYfIrc5fwb9UiAZMnbIKWHZBkbhgJ/uGSbSixLSwWzyPeEUi4Y+L+IEEpCuvI9EpcUGaUB85dl4YSGIZmwksyNIrouq01pUF516c5ITTCYuEFd+t332DyVmrKRyz8TfzbPVsa6lY4s3ExZPEk8dz26LoiUPlK6EaUsbS02XRJw52V+Sefdt4zuflhEQnbMBEt+MTqPr6NN9N0xf3zFg6/GuCOs/HSDlXjgf55Hw6dRzx72kawHYNkZR9Ca8ZZ4ELbNvBPRVegRvgCG4fXcZ2SwdCd8dA35ALI5WwRiWCxFIkY2rc+Ad56BlCJ0QVi0BRUxQcnSQmSToov+Oo8Nzhw+L8Ql03NFOsx2pnOPQUM47QQHGjUH1pxEPMgo0aURm9MZDd2gn0ud3I0S9HKdB0qXwnn/Esa2Ynu4K0bLrp3SkIlBrO1czRfe72j4nXQVTcieB5SbAxKRwGX+z7L9Ju+Kqc/Uh5V3gdTLcdSwVbbA3GhGmJiUh8iOIndbUFtyhbh9GbO8jCo2532LOr5IXTugbl6mjkvq0EidkafuLjrnZ7NVz+a+hkwTWT3esA1kOomkiyy9MdEf3DGcAKXkdAN/FkJ7ArlHIhBwBPiAWFsMLHzPS/cBif1f7jixx3eCCC8Y1xyk9VoTvYEp4jwQxnIKF7dA+4ZuBVBHupNLYRG9c7dDpkKn05iwSoCvElKsfEhCQRCi7Yuwl3ReeeduN9bbFAd7W9G7NtmgnEhQc+iMvDoBsVaBDa4cUVdCIFYrR6YloZtzBKuNIHEc5NiobyDbSUCiIqefoMVEjsaJwiUmMvuoryMnGQVlS0XWPW/AdAsnHIJZdsIhsKkkQwofBQk8HUz/LcmU7uS9aMKqWQp258PjSa4lyuPTcDT82+7+9eXxUy2Qb11wVjepKU7Id6s36zR/fhoMvjgPr6PB0H74iEW7JlecqL130V6n00f1XfXCY8rv7Tut5rtvdLwBCcewaSNH5/CG4tXEvGF1OfILji14U/+x4pffBJ2dOGEnqEpYW24S72XjrdEAv7LbEZ0XMbEgOnRjFtH/SJcGFOz2QhpyK1M/CKoifhCI39h+N7ssKyo7Sm7aUVJDVsi3ygpcT4v6IRx6Nn8jw8MTuHHsT8qxK9eYrQUjPq1gJBufvRTar5kJaOdTeOcGJWb2xupQidlyyS6EU2uIZia7sBKtMkZVKlmSPmatEq0bkqqn5W1K2uqp/CZXY9zwpgfqVrgS21CBWsiykK3+qVIFCfZVqZKuG6X4XVqlZqaV8tW8o5llEze8ZJs3x1+GsTtZO5pk+SVbzNph8+1u2cciUG1OmwtzoooK3TiXbYcMncy2q+dg08u7+g0bcHSPLDN/i5fjqFb9nnpBr5Z/KfqMfNF9xKvC6ywCNvOtDWYHirA9W/3qidqp5tMNr9xSPVFuBSujCCvpWFgZJVjht4OVeiSsbvNKUKl8FTHOLcTUQ4ZaYHW1DKt/VmwChoVMYEYvuSbCqJQUTSoykzKKM+kPnE6EU+HD8jUT8xpsgm7+rTtVz/9jQOn/Dw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:02:57.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="tmWfXoI0-JefQXHhj0Te" version="15.7.0" type="github">
+  <diagram id="qlDedYnUvZH7T_k4Barl" name="第 1 页">
+    <mxGraphModel dx="2893" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-1" value="UP_TO_DATE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-169" y="607" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-149" y="557" />
+              <mxPoint x="-219" y="557" />
+              <mxPoint x="-219" y="657" />
+              <mxPoint x="-149" y="657" />
+              <mxPoint x="-149" y="607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-9" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-2" target="92X7-NY_xrWB8qJ1SJ7b-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-119" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-14" value="建立依赖与派生绑定关系后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2148" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-2" value="NOT_TRACKING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-179" y="577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-3" value="POSSIBLY_STALE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="489" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-4" value="STALE&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-5" value="Mobx 状态机&lt;br style=&quot;font-size: 15px;&quot;&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-1" target="92X7-NY_xrWB8qJ1SJ7b-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-17" value="解除绑定关系后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+            <mxPoint x="-57" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-1" target="92X7-NY_xrWB8qJ1SJ7b-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="670" as="sourcePoint" />
+            <mxPoint x="350" y="670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-19" value="依赖变化后&lt;br&gt;依赖与派生状态具变" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-18" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="92X7-NY_xrWB8qJ1SJ7b-4" target="92X7-NY_xrWB8qJ1SJ7b-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="730" as="sourcePoint" />
+            <mxPoint x="460" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92X7-NY_xrWB8qJ1SJ7b-21" value="派生重新处理后&lt;br&gt;依赖与派生状态具变" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=15;" parent="92X7-NY_xrWB8qJ1SJ7b-20" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,1 +1,220 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:35:58.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="p4DaehmQn4a2ezNwoZvA" version="20.2.3" type="github"><diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">7VzJcqs4FP0aL18KEGBYxk7yetHDq05XD0sZFJuOjFyyHCf99S1ATBK2ldjCpEI2gasRnXOPpCvwBMzXr98p3Kx+ITHCE8eKXyfgbuI4tmsF/F9meSssU1cYljSJRaba8Jj8h4TREtZdEqNtKyMjBLNk0zZGJE1RxFo2SCnZt7M9EdxudQOXSDE8RhCr1r+SmK2E1basOuEnlCxXounAEwkLGD0vKdmlor2UpKhIWcOyGpF1u4Ix2TdM4H4C5pQQVlytX+cIZ8NajlhR7uFAatVlilKmU2C6gAtoR+4icqZP7sL65hQ1vEC8E8MwAbe/Lf7NBrjoMXsrB4h3fpNd7tb45+QJ4YQ/JphtEE3WiCHKU7Aw/6hts/0qYehxA6Os6J5Th9tWbI35nc0vOZoM8iK0uscYbrbJIm/V4haKoh3dJi/od7QtSJNZyY5lLc0rMuRZMxBQLKqqBtvK610nkbjGcIHwrEJtTjDJms9x48UYJc8VBbKKnngfH+A6wRmz/0Q0hikUZkFjmw/bDOJkmfKbiIORP7qKjgDsBVGGXhsmgdZ3RPiw0TeeRaQ6rmCOcKpA3O4bDC0JumqQ0yszQuEVy6rqmh78QjBEky2lqzbpIrOkge2GJCnL2/dmE+9OIguhbEWWJIW4SZcaQmuYEB50IW1MXa8FaYVfC1MVUgeYgBSMAjBoAXCtQQlAB12+vACAd2MqCYCjKQCWCUjdUQAGLQDeoFYA3siWQbPFD4bEFn9ky6DZEjhDYst0ZMug2RL6Q2JLMLJl0GyxB7VxCcd9y0EPMh24cF0jW9GOxcVXg/T9m4mgDaGjufW0zUQT1Bk/TrYbyKLVMSizx00iiG/FAC0IY2TNE1Aa32YHAZkNk+j5JDaaSKB4iR5FVxBekP19bZjlBp5Q9uoYUFuyoxE6NBoijsAgXaJDPluyPuvSUcApwpDxqafVfhd6ouiPzD8aRLGtbqKUVRSPIkrVHODjD98a2YTbHWzH9bvbqSlV1FgTrHrGD3JunAneLxtTR5INoKn8JlSjZKJB1eAjRd/+FjjlN/9ogTYsPfF19CTsR098z+pm0Ak9uYTLV3yvCUMR29H0XLqQDeJJsxhuV9XSnScLqINPRpdwQNOPTBdg+e0qil6ePf34U4mWvnR+LuWfWkfzX366Kmencbo6Y5VbbUBOrXLNzFfqmdknm68+Jig6elKyue/lrKu5nL2IC3ecmQzXhUvjhGtu/tft3AnGjZwP+Z8+obL7roYMxaEkNfD11MDI6xaOGrX4EmJQcv64Gnj9qEEIpNWFrPsm1UCNefS1GEWvCat4wa9zWtyE3pWZ4Q1onpCZ4dp6686LMKPjRGO488RAlnqBtID3PD1x942Iuxpb+mTi3s9WE0x1XD7ox+UD6wCDepgMgBrKGiMTB5lwlC49xbFktviOmcCEJ+mab5mOi6tBslG7PrirLScc02R0pNd37LA/6bLV90ZHvhzhwnHCgH4IA+Rwp/xGscm5ruNF43F5eyqSGcpxcL3l7dTE8haogaxhHtervtv09Zo7TYePdvSlsVQSymO3lOfGCfzS0OBdtaHOS9xYoNxsF4WA64l7ucwHFUXnXK/0NtOK4voHToZPKIq64AlPVHSpEx/5IDJwjvZLOYky/YICMB8hHIqX1S7j+y2XmfIJ8ZIu05c3+DZ39+ZfmzqaO8uTvgGCsBffKDus7RuiX+Z8o+MV8XEN8c41hKf5zp+Rw1BgPkQ2FHW78hrC+JFq6LW0ri1RniVVqKt1vmUdqxaErVS3Fx0sH0ZXBz1gWAddNW74K2FI8aDyu4c0Szz5QYP4RoHv7FWHY2TTkCeMnlhWgFeVpMs/srS7b/6V1fN8pZQ/Weh8y7HrpNgzoJSuGpAbMT4fY/kHNa6LsTNibABj+TcTroux+vrXiPEFVrWD8mM1tjlifD7G8sfs18VYjX6OGJ+PsfwJ+nUxVmNvI8bnYyx/OG4QY35b/5pesdWqf60Q3P8P</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-24T11:00:43.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-o0xI0uop72Qzf_QLzfR" version="20.2.3" type="github">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="2510" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-9" value="中控屏 APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="830" width="100" height="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="55" y="140" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="55" y="250" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-21" value="5. 序列化到运存、覆盖存入本地" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1.464;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mfzXLa-9cbicv-mfSP5t-9" target="mfzXLa-9cbicv-mfSP5t-22">
+          <mxGeometry x="0.0956" y="55" relative="1" as="geometry">
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="60" y="339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="300" />
+              <mxPoint x="105" y="338" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="45" y="80" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-23" value="1. 请求建连长连接" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.136;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mfzXLa-9cbicv-mfSP5t-9" target="mfzXLa-9cbicv-mfSP5t-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <mxPoint x="135" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="45" y="580" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="55" y="690" width="10" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-46" value="12. 根据设备入网信息找 UIID，找不到就遗弃入网信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1.464;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="0.0953" y="120" relative="1" as="geometry">
+            <mxPoint x="65.36000000000001" y="730" as="sourcePoint" />
+            <mxPoint x="55.00000000000034" y="768.2800000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100.36000000000001" y="730" />
+              <mxPoint x="100.36000000000001" y="768" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="55" y="800" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-9">
+          <mxGeometry x="55" y="1010" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-57" value="17. 序列化到运存、增量存入本地" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1.115;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.042;exitY=0.619;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="mfzXLa-9cbicv-mfSP5t-9" source="mfzXLa-9cbicv-mfSP5t-28" target="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry x="0.1823" y="50" relative="1" as="geometry">
+            <mxPoint x="65.36000000000001" y="930" as="sourcePoint" />
+            <mxPoint x="55.00000000000034" y="968.28" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="951" />
+              <mxPoint x="100" y="987" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-10" value="ZigBee APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="830" width="100" height="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-10">
+          <mxGeometry x="45" y="140" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-10">
+          <mxGeometry x="45" y="230" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-10">
+          <mxGeometry x="45" y="580" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-11" value="长连接 Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="830" width="100" height="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-11">
+          <mxGeometry x="45" y="70" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-11">
+          <mxGeometry x="45" y="800" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="mfzXLa-9cbicv-mfSP5t-11">
+          <mxGeometry x="45" y="1010" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-14" value="3. 建连成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.045;exitY=0.834;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.155;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-17" target="mfzXLa-9cbicv-mfSP5t-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="990" as="sourcePoint" />
+            <mxPoint x="270" y="990" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-16" value="4. 主动持续 pub 网络内子设备信息 (infomation)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.073;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.973;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-18" target="mfzXLa-9cbicv-mfSP5t-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1089.5" as="sourcePoint" />
+            <mxPoint x="180" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-13" value="2. 订阅 zigbee/system/availability 监听 MQTT 连接状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.945;exitY=0.37;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.064;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-12" target="mfzXLa-9cbicv-mfSP5t-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="950" as="sourcePoint" />
+            <mxPoint x="520" y="996" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-25" value="6. 长连接建立（重连）成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.991;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mfzXLa-9cbicv-mfSP5t-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1210" as="sourcePoint" />
+            <mxPoint x="680" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-26" value="Note&lt;br&gt;7. 上报时，4 中 infomation 不清楚有无 pub 完" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-27" value="7. 上报 4. 中（运存中）收到的所有子设备信息、网关信息" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.882;exitY=0.777;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="1250.75" as="sourcePoint" />
+            <mxPoint x="760" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-30" value="9. 请求进入入网模式 （discover true）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.061;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.253;exitY=0.055;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-28" target="mfzXLa-9cbicv-mfSP5t-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="1410" as="sourcePoint" />
+            <mxPoint x="511.1899999999999" y="1430.9099999999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-32" value="主动终止入网模式 （discover false）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.99;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-28" target="mfzXLa-9cbicv-mfSP5t-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170.0000000000001" y="1520" as="sourcePoint" />
+            <mxPoint x="527.9999999999999" y="1520.17" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-33" value="终止成功 （discovering false）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.061;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.153;exitY=0.916;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1900" as="sourcePoint" />
+            <mxPoint x="170.0000000000001" y="1561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-31" value="10. 入网成功 （discovering true）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.253;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.061;exitY=0.108;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1470" as="sourcePoint" />
+            <mxPoint x="440" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-34" value="倒计时结束主动上报 （discovering false）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.153;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.262;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523.9999999999999" y="1722.16" as="sourcePoint" />
+            <mxPoint x="170" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-36" value="11. 新设备持续加入 （discovered）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.033;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.33;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1560" as="sourcePoint" />
+            <mxPoint x="170.0000000000001" y="1560.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-47" value="Note&lt;br&gt;&lt;br&gt;① AI-B 找 UIID 的逻辑是什么&lt;br&gt;&lt;br&gt;② 去哪里拿初始状态" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1630" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-50" value="8. error: 0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.041;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.042;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-24" target="mfzXLa-9cbicv-mfSP5t-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755.09" y="1290" as="sourcePoint" />
+            <mxPoint x="159.9999999999999" y="1290.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-51" value="14. 响应 deviceid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.897;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.068;exitY=0.645;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-37" target="mfzXLa-9cbicv-mfSP5t-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="769.17" y="1680" as="sourcePoint" />
+            <mxPoint x="170.00000000000034" y="1681.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-49" value="13. 根据 UIID、Mac 地址注册该设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.132;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.139;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-48" target="mfzXLa-9cbicv-mfSP5t-37">
+          <mxGeometry x="-0.2052" width="80" relative="1" as="geometry">
+            <mxPoint x="175" y="1660" as="sourcePoint" />
+            <mxPoint x="760" y="1660" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-55" value="15. 读初始状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.074;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.27;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170.00000000000034" y="1725.04" as="sourcePoint" />
+            <mxPoint x="526.6600000000002" y="1719.9999999999995" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-56" value="16. xxx&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.003;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.003;exitY=0.566;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.09" y="1740" as="sourcePoint" />
+            <mxPoint x="160.00000000000034" y="1747.1400000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-61" value="18. 上报新入网子设备初始状态" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.108;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.892;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-54" target="mfzXLa-9cbicv-mfSP5t-60">
+          <mxGeometry x="-0.2052" width="80" relative="1" as="geometry">
+            <mxPoint x="179.9999999999999" y="1830.5999999999997" as="sourcePoint" />
+            <mxPoint x="769.9299999999997" y="1829.9999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-62" value="19. error: 0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.97;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.042;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mfzXLa-9cbicv-mfSP5t-60" target="mfzXLa-9cbicv-mfSP5t-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761.7099999999998" y="1859.9999999999998" as="sourcePoint" />
+            <mxPoint x="170.00000000000026" y="1861.9199999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

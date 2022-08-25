@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T06:03:26.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="T9YmrLhx_BcsL5pBn7OR" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T06:23:37.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Vn6YZGcL6QGjTnGdzf7i" version="20.2.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2590" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -214,8 +214,8 @@
             <mxPoint x="170.0000000000001" y="1560.68" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfzXLa-9cbicv-mfSP5t-47" value="Note&lt;br&gt;&lt;br&gt;① AI-B 找 UIID 的逻辑是什么&lt;br&gt;&lt;br&gt;② 去哪里拿初始状态&lt;br&gt;&lt;br&gt;③ 11 ~ 19 步是可能异步执行这个流程的，了解 11 步是否设备有间隔上报" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="-70" y="1630" width="190" height="140" as="geometry" />
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-47" value="Note&lt;br&gt;&lt;br&gt;① AI-B 找 UIID 的逻辑是什么 （根据 power 去找，有个独立的逻辑）&lt;br&gt;&lt;br&gt;② 去哪里拿初始状态 (AI 是设备主动 updated ，设备报一条，上报云端一条)&lt;br&gt;&lt;br&gt;③ 11 ~ 19 步是可能异步执行这个流程的，了解 11 步是否设备有间隔上报 （无）" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1630" width="190" height="200" as="geometry" />
         </mxCell>
         <mxCell id="mfzXLa-9cbicv-mfSP5t-50" value="8. error: 0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.041;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.042;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-24" target="mfzXLa-9cbicv-mfSP5t-22" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -297,8 +297,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GyI9x6O-c3qd3rBxpdz-25" value="Note&lt;br&gt;&lt;br&gt;① 怎么取消订阅&lt;br&gt;&lt;br&gt;②&amp;nbsp; 25. 取消该设备所有订阅有没有通配符啥的" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="-80" y="2075" width="190" height="100" as="geometry" />
+        <mxCell id="4GyI9x6O-c3qd3rBxpdz-25" value="Note&lt;br&gt;&lt;br&gt;① 怎么取消订阅 （MQTT 库提供）&lt;br&gt;&lt;br&gt;②&amp;nbsp; 25. 取消该设备所有订阅有没有通配符啥的（有的）" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2075" width="190" height="115" as="geometry" />
         </mxCell>
         <mxCell id="4GyI9x6O-c3qd3rBxpdz-27" value="22. 主动删除子设备" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.882;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4GyI9x6O-c3qd3rBxpdz-26" target="4GyI9x6O-c3qd3rBxpdz-4">
           <mxGeometry x="-0.0509" y="-1" width="80" relative="1" as="geometry">
@@ -334,7 +334,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GyI9x6O-c3qd3rBxpdz-36" value="Note&lt;br&gt;&lt;br&gt;① 超时时间是多少？&lt;br&gt;&lt;br&gt;② 主动控制后，成功与否认的是 update-result 还是 client 为客户端的 updated" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="4GyI9x6O-c3qd3rBxpdz-36" value="Note&lt;br&gt;&lt;br&gt;① 超时时间是多少？ 3s&amp;nbsp;&lt;br&gt;&lt;br&gt;② 主动控制后，成功与否认的是 update-result 还是 client 为客户端的 updated" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="-80" y="2420" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4GyI9x6O-c3qd3rBxpdz-37" value="30. 响应 update&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(248, 249, 250);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%2224.%20deleted%20(%E5%AE%A2%E6%88%B7%E7%AB%AF%20clientId)%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dopen%3Bdashed%3D1%3BendSize%3D8%3Brounded%3D0%3BentryX%3D1.082%3BentryY%3D0.26%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D-0.018%3BexitY%3D0.294%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0253%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22524.8200000000002%22%20y%3D%222119.975%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22165.82000000000016%22%20y%3D%222120.9%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3Eu&#39;pd&lt;/span&gt;-result (客户端 clientId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.955;entryY=0.262;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="4GyI9x6O-c3qd3rBxpdz-1">

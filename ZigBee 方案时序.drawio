@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T06:23:37.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Vn6YZGcL6QGjTnGdzf7i" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T06:32:02.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4MgBrB-Fsf8jdf-_REQI" version="20.2.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2590" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -148,7 +148,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfzXLa-9cbicv-mfSP5t-16" value="4. 主动持续 pub 网络内子设备信息 (infomation)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.073;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.973;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-18" target="mfzXLa-9cbicv-mfSP5t-19" edge="1">
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-16" value="4. 主动持续 pub 网络内子设备信息 (infomation)" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.073;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.973;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-18" target="mfzXLa-9cbicv-mfSP5t-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="1089.5" as="sourcePoint" />
             <mxPoint x="180" y="1090" as="targetPoint" />
@@ -202,13 +202,13 @@
             <mxPoint x="440" y="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfzXLa-9cbicv-mfSP5t-34" value="倒计时结束主动上报 （discovering false）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.153;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.262;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28" edge="1">
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-34" value="倒计时结束主动上报 （discovering false）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=-0.153;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.062;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="523.9999999999999" y="1722.16" as="sourcePoint" />
             <mxPoint x="170" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mfzXLa-9cbicv-mfSP5t-36" value="11. 新设备持续加入 （discovered）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.033;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.33;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-40" edge="1">
+        <mxCell id="mfzXLa-9cbicv-mfSP5t-36" value="11. 新设备持续加入 （discovered）&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=1.033;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.33;exitY=0.209;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mfzXLa-9cbicv-mfSP5t-29" target="mfzXLa-9cbicv-mfSP5t-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="1560" as="sourcePoint" />
             <mxPoint x="170.0000000000001" y="1560.68" as="targetPoint" />
@@ -283,7 +283,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GyI9x6O-c3qd3rBxpdz-23" value="25. 子设备自己离网，主动 pub deleted (zigbee clientId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.809;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.227;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4GyI9x6O-c3qd3rBxpdz-19" target="4GyI9x6O-c3qd3rBxpdz-4">
+        <mxCell id="4GyI9x6O-c3qd3rBxpdz-23" value="25. 子设备自己离网，主动 pub deleted (zigbee clientId)" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.809;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.227;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4GyI9x6O-c3qd3rBxpdz-19" target="4GyI9x6O-c3qd3rBxpdz-4">
           <mxGeometry x="0.0253" relative="1" as="geometry">
             <mxPoint x="530.0000000000002" y="2140.0049999999997" as="sourcePoint" />
             <mxPoint x="170.00000000000017" y="2141.0249999999996" as="targetPoint" />
@@ -334,7 +334,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GyI9x6O-c3qd3rBxpdz-36" value="Note&lt;br&gt;&lt;br&gt;① 超时时间是多少？ 3s&amp;nbsp;&lt;br&gt;&lt;br&gt;② 主动控制后，成功与否认的是 update-result 还是 client 为客户端的 updated" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="4GyI9x6O-c3qd3rBxpdz-36" value="Note&lt;br&gt;&lt;br&gt;① 超时时间是多少？ 3s&amp;nbsp;&lt;br&gt;&lt;br&gt;② 主动控制后，成功与否认的是 update-result 还是 clientid 为客户端的 updated (认的是 update-result)" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="-80" y="2420" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4GyI9x6O-c3qd3rBxpdz-37" value="30. 响应 update&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(248, 249, 250);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%2224.%20deleted%20(%E5%AE%A2%E6%88%B7%E7%AB%AF%20clientId)%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dopen%3Bdashed%3D1%3BendSize%3D8%3Brounded%3D0%3BentryX%3D1.082%3BentryY%3D0.26%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D-0.018%3BexitY%3D0.294%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0253%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22524.8200000000002%22%20y%3D%222119.975%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22165.82000000000016%22%20y%3D%222120.9%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3Eu&#39;pd&lt;/span&gt;-result (客户端 clientId)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.955;entryY=0.262;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="4GyI9x6O-c3qd3rBxpdz-1">
@@ -344,7 +344,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GyI9x6O-c3qd3rBxpdz-38" value="&lt;div style=&quot;text-align: start;&quot;&gt;31. 状态改变主动上报 updated&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px; background-color: rgb(248, 249, 250);&quot;&gt;d&lt;/span&gt;&lt;/font&gt;&amp;nbsp;(ZigBee clientId)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.136;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="4GyI9x6O-c3qd3rBxpdz-1">
+        <mxCell id="4GyI9x6O-c3qd3rBxpdz-38" value="&lt;div style=&quot;text-align: start;&quot;&gt;31. 状态改变主动上报 updated&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 0px; background-color: rgb(248, 249, 250);&quot;&gt;d&lt;/span&gt;&lt;/font&gt;&amp;nbsp;(ZigBee clientId)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=1.136;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="4GyI9x6O-c3qd3rBxpdz-1">
           <mxGeometry x="0.0253" relative="1" as="geometry">
             <mxPoint x="519" y="2500.0049999999997" as="sourcePoint" />
             <mxPoint x="160" y="2500.93" as="targetPoint" />

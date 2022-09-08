@@ -1,20 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T16:03:42.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E5QzApUXmCgJ6C-5MqLC" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T18:47:13.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="D7dJx3sRayuvRkTUiELz" version="20.3.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="1718" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2545" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-37" target="SZFpOPhuuLJHxvcIcTJ8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="1240" height="680" as="geometry" />
+        </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-1" target="SZFpOPhuuLJHxvcIcTJ8-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-1" value="设计理念" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;引用官网：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(107, 107, 107); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;React 是用 JavaScript 构建快速响应的大型 Web 应用程序的首选方式。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="130" width="620" height="60" as="geometry" />
+          <mxGeometry x="460" y="100" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-4" target="SZFpOPhuuLJHxvcIcTJ8-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="280" />
+              <mxPoint x="970" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.142;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-4" target="SZFpOPhuuLJHxvcIcTJ8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="514" y="280" />
+              <mxPoint x="260" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-4" value="追求即使是大型 Web 应用，也能快速响应" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="210" width="310" height="40" as="geometry" />
@@ -26,25 +45,106 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;什么阻碍了快速响应？&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="555" y="380" width="140" height="60" as="geometry" />
+          <mxGeometry x="900" y="330" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-8" target="SZFpOPhuuLJHxvcIcTJ8-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-8" value="计算能力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-9" target="SZFpOPhuuLJHxvcIcTJ8-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-9" value="网络延迟" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="770" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="1120" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-12" value="CPU" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-12" value="CPU 瓶颈" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-14" value="IO" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-14" value="IO 瓶颈" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-17" target="SZFpOPhuuLJHxvcIcTJ8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;非快速响应 （掉帧）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-18" target="SZFpOPhuuLJHxvcIcTJ8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-18" value="浏览器刷新频率： 60HZ&lt;br&gt;&lt;br&gt;1000ms / 60HZ = 16.6 ms&lt;br&gt;&lt;br&gt;每 16.6 ms 刷新一次浏览器（所谓一帧）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-20" target="SZFpOPhuuLJHxvcIcTJ8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-20" value="16.6ms 内浏览器依次处理:&lt;br&gt;&lt;br&gt;JS 脚本执行 -&amp;gt; 样式布局 -&amp;gt; 样式绘制&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="115" y="610" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-22" value="若 JS 脚本执行时间超过了 16.6ms，导致浏览器这一帧内无法完成样式布局 和 绘制，待执行完毕时再去布局和绘制，呈现出来的视觉效果，就是卡顿，俗称掉帧。" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="85" y="780" width="350" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-24" target="SZFpOPhuuLJHxvcIcTJ8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-24" value="防抖" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="SZFpOPhuuLJHxvcIcTJ8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="1090" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" target="SZFpOPhuuLJHxvcIcTJ8-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1105" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" target="SZFpOPhuuLJHxvcIcTJ8-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="1090" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-31" target="SZFpOPhuuLJHxvcIcTJ8-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-31" target="SZFpOPhuuLJHxvcIcTJ8-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-31" value="解决方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="635" y="910" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-32" target="SZFpOPhuuLJHxvcIcTJ8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-32" value="节流" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry y="1175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-33" target="SZFpOPhuuLJHxvcIcTJ8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-33" value="可中断的异步更新" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-39" value="本质是减少 JS 执行频率，显得没那么卡，但是一旦到执行的时候，超过 16.6 ms，依然会掉帧" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontSize=11;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1305" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;在浏览器每一帧的时间中，预留一些时间给 JS 线程，React&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;利用这部分时间更新组件。&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;当预留的时间不够用时，React&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;将线程控制权交还给浏览器使其有时间渲染UI，React&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;则等待下一帧时间到来继续被中断的工作。&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1305" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-49" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;React 提出的内置在框架内的解决方案&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;（concurrent mode）&lt;/font&gt;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1180" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;这种将长任务分拆到每一帧中，&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;一次&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;执行一小段任务的操作，&lt;br&gt;被称为&amp;nbsp;&lt;b&gt;时间切片&lt;/b&gt;&amp;nbsp;(&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;time slice）&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;时间分片的关键就是：将&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;同步的更新&lt;/span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;变为&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif;&quot;&gt;可中断的异步更新&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1305" width="340" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-52" value="CPU 瓶颈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SZFpOPhuuLJHxvcIcTJ8-54" value="IO 瓶颈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="1070" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

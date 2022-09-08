@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T15:43:18.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.0" etag="u4pBZjwCrz7CcnLhs7FQ" type="github"><diagram id="wsibwoi-F8VXVPu4Lnoc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-08T15:50:54.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sKuq2i1Q98gZ6s1uCCMX" version="20.3.0" type="github">
+  <diagram id="wsibwoi-F8VXVPu4Lnoc" name="第 1 页">
+    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-1" target="Gpelp42YI5w62Z2ZZo_r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-1" target="Gpelp42YI5w62Z2ZZo_r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-1" target="Gpelp42YI5w62Z2ZZo_r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-1" value="核心能力&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-3" target="Gpelp42YI5w62Z2ZZo_r-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-3" value="CPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-4" target="Gpelp42YI5w62Z2ZZo_r-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-4" value="内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-5" target="Gpelp42YI5w62Z2ZZo_r-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-5" value="IO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-10" value="提供了逻辑能力和计算能力" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="340" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-12" value="提供了数据暂存能力" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.483;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-14" target="Gpelp42YI5w62Z2ZZo_r-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gpelp42YI5w62Z2ZZo_r-14" target="Gpelp42YI5w62Z2ZZo_r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-14" value="提供了与其他数据存储介质交换数据的能力" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="560" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-19" value="磁盘的读写，就是本地 IO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="510" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpelp42YI5w62Z2ZZo_r-20" value="网络请求，就是远程 IO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="875" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T13:19:05.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tmSKp84MIrKTD6VMA4O6" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T14:48:40.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jDoBrXSoti-FSttIX4Xr" version="20.3.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="1877" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,6 +166,15 @@
         </mxCell>
         <mxCell id="sqf4cxIHvL5PkyzE129T-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;比如异步操作，先在当前页面停留一小段时间，这一小段时间用来请求数据，当这一小段时间足够短且请求到了数据时，用户是无感知的，如果请求时间超过一个范围，再展示 loading 效果。&lt;br&gt;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1510" y="1142.5" width="340" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="sqf4cxIHvL5PkyzE129T-10" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1470" width="1970" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sqf4cxIHvL5PkyzE129T-11" value="&lt;a href=&quot;https://github.com/acdlite/react-fiber-architecture&quot;&gt;Fiber principles&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sqf4cxIHvL5PkyzE129T-12" value="进程、线程、协程、纤程(Fiber)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1645" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

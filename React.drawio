@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T15:32:04.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="IpV49hVo0d2LKnR7A_Ms" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T15:52:15.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7qEO2wXdzZVQ4meFKscu" version="20.3.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="3716" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,10 +171,10 @@
           <mxGeometry x="-300" y="1470" width="1970" height="10" as="geometry" />
         </mxCell>
         <mxCell id="sqf4cxIHvL5PkyzE129T-11" value="&lt;a href=&quot;https://github.com/acdlite/react-fiber-architecture&quot;&gt;Fiber principles&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sqf4cxIHvL5PkyzE129T-12" value="进程、线程、协程、纤程(Fiber)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="620" y="1600" width="220" height="50" as="geometry" />
+          <mxGeometry x="370" y="1500" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rAVssYwhxe-QdQCy7uud-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-2" target="rAVssYwhxe-QdQCy7uud-6">
           <mxGeometry relative="1" as="geometry" />
@@ -220,6 +220,29 @@
         </mxCell>
         <mxCell id="rAVssYwhxe-QdQCy7uud-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;React核心团队成员&lt;/span&gt;&lt;a style=&quot;text-decoration-line: none; color: rgb(62, 175, 124); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://github.com/sebmarkbage/&quot;&gt;Sebastian Markbåge&lt;span style=&quot;position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border-width: 0px;&quot; class=&quot;sr-only&quot;&gt;(opens new window)&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;（&lt;/span&gt;&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; font-size: 0.85em; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; text-align: start;&quot;&gt;React Hooks&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;的发明者）曾说：我们在&lt;/span&gt;&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; font-size: 0.85em; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; text-align: start;&quot;&gt;React&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;中做的就是践行&lt;/span&gt;&lt;code style=&quot;font-family: source-code-pro, Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; color: rgb(71, 101, 130); padding: 0.25rem 0.5rem; margin: 0px; font-size: 0.85em; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; text-align: start;&quot;&gt;代数效应&lt;/code&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;（Algebraic Effects）。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-870" y="1680" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-15" target="rAVssYwhxe-QdQCy7uud-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-18" value="架构上" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rAVssYwhxe-QdQCy7uud-17">
+          <mxGeometry x="0.1368" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-15" target="rAVssYwhxe-QdQCy7uud-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-15" value="Fiber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-16" value=",React 15 之前，是由协调器和渲染器交互工作，递归地更新组件，所以协调器被称作 stack reconciler，这个 stack 就是递归调用栈。&lt;br&gt;React 15 之后，协调器基于 Fiber 去重构，所以此时的协调器是 Fiber reconciler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1644" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-19" value="每个 Fiber 节点对应着一个 React element 元素，整个 React 应用的页面可以用一个 Fiber 节点树来描述，类似于虚拟 DOM 的概念。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1820" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-21" value="实现上" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1810" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

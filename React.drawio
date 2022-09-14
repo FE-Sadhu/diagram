@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T14:48:40.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jDoBrXSoti-FSttIX4Xr" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T15:30:46.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PgWi5EzMy2hlaOFndIcl" version="20.3.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2889" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,38 +143,80 @@
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-52" value="CPU 瓶颈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="20" y="1070" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-54" target="sqf4cxIHvL5PkyzE129T-1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SZFpOPhuuLJHxvcIcTJ8-54" target="sqf4cxIHvL5PkyzE129T-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SZFpOPhuuLJHxvcIcTJ8-54" value="IO 瓶颈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1285" y="1070" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="sqf4cxIHvL5PkyzE129T-1" target="sqf4cxIHvL5PkyzE129T-6">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="sqf4cxIHvL5PkyzE129T-1" target="sqf4cxIHvL5PkyzE129T-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" edge="1" parent="1" source="sqf4cxIHvL5PkyzE129T-1" target="sqf4cxIHvL5PkyzE129T-3">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="sqf4cxIHvL5PkyzE129T-1" target="sqf4cxIHvL5PkyzE129T-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-1" value="&lt;a style=&quot;font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-intro.html#putting-research-into-production&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;将人机交互研究的结果整合到真实的 UI 中&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-1" value="&lt;a style=&quot;font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-intro.html#putting-research-into-production&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;将人机交互研究的结果整合到真实的 UI 中&lt;/font&gt;&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1165" y="1155" width="310" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-3" value="&lt;a style=&quot;color: rgb(62, 175, 124); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-suspense.html&quot;&gt;Suspense&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-3" value="&lt;a style=&quot;color: rgb(62, 175, 124); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-suspense.html&quot;&gt;Suspense&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-6" value="&lt;a style=&quot;text-decoration-line: none; color: rgb(62, 175, 124); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-reference.html#usedeferredvalue&quot;&gt;useDeferredValue&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-6" value="&lt;a style=&quot;text-decoration-line: none; color: rgb(62, 175, 124); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https://zh-hans.reactjs.org/docs/concurrent-mode-reference.html#usedeferredvalue&quot;&gt;useDeferredValue&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1420" y="1345" width="150" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;比如异步操作，先在当前页面停留一小段时间，这一小段时间用来请求数据，当这一小段时间足够短且请求到了数据时，用户是无感知的，如果请求时间超过一个范围，再展示 loading 效果。&lt;br&gt;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px;&quot;&gt;比如异步操作，先在当前页面停留一小段时间，这一小段时间用来请求数据，当这一小段时间足够短且请求到了数据时，用户是无感知的，如果请求时间超过一个范围，再展示 loading 效果。&lt;br&gt;&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;dashed=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1510" y="1142.5" width="340" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-10" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="sqf4cxIHvL5PkyzE129T-10" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-300" y="1470" width="1970" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-11" value="&lt;a href=&quot;https://github.com/acdlite/react-fiber-architecture&quot;&gt;Fiber principles&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1645" width="120" height="60" as="geometry" />
+        <mxCell id="sqf4cxIHvL5PkyzE129T-11" value="&lt;a href=&quot;https://github.com/acdlite/react-fiber-architecture&quot;&gt;Fiber principles&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="810" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sqf4cxIHvL5PkyzE129T-12" value="进程、线程、协程、纤程(Fiber)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1645" width="220" height="50" as="geometry" />
+        <mxCell id="sqf4cxIHvL5PkyzE129T-12" value="进程、线程、协程、纤程(Fiber)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="415" y="1490" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-2" target="rAVssYwhxe-QdQCy7uud-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-10" value="机制" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rAVssYwhxe-QdQCy7uud-9">
+          <mxGeometry x="-0.1014" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-2" target="rAVssYwhxe-QdQCy7uud-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1875" />
+              <mxPoint x="170" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-13" value="在 React 中的应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rAVssYwhxe-QdQCy7uud-12">
+          <mxGeometry x="-0.1651" y="-3" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-2" value="代数效应" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-4" value="2x + 3y + 4z 就是一个代数式，x ,y ,z 就是代数&lt;br&gt;&lt;br&gt;结合函数式编程来说，代数就代表着函数的副作用，代数效应就是把副作用从函数中分离。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1630" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-6" value="代数效应的机制中有个效应执行器的概念，在把副作用从函数中分离后，放到效应执行器里执行，并且执行完后还能回到函数中的位置继续执行。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1820" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-7" value="概念" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1750" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="rAVssYwhxe-QdQCy7uud-2" target="rAVssYwhxe-QdQCy7uud-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1845" as="sourcePoint" />
+            <mxPoint x="280" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAVssYwhxe-QdQCy7uud-11" value="1. Hooks&amp;nbsp; ---&amp;nbsp; &amp;nbsp;我们在函数组件中只需使用 hooks 带来的结果，其运作过程从组件中分离出去，交由 React 去执行&lt;br&gt;2. Suspense&amp;nbsp; ---&amp;nbsp; &amp;nbsp;组件中只关注异步的结果，异步的过程分离给 React 处理 （可能不准确）&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 异步可中断更新 ---&amp;nbsp; 效应执行器的思路在 React 中的体现&lt;br&gt;&lt;br&gt;（generator 函数（协程）也是代数效应思想在 JS 中的体现）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1950" width="400" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

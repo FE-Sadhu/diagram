@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T03:46:18.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ce4Qs58C0XmH8bAEaMI5" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T06:05:51.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j8ES1SZXxEJfmw49wajo" version="20.2.8" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2864" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2756" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,13 +265,13 @@
         <mxCell id="pPajzx2_OC7eIc0y-kV2-19" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=18;shadow=0;glass=0;verticalAlign=middle;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-200" y="2190" width="500" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="pPajzx2_OC7eIc0y-kV2-8" value="Scheduler" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="pPajzx2_OC7eIc0y-kV2-8" value="Scheduler&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;调度任务的优先级，高优任务优先进入&lt;/span&gt;&lt;span style=&quot;font-weight: 600; color: rgb(44, 62, 80); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;Reconciler&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-150" y="2252" width="140" height="234" as="geometry" />
         </mxCell>
-        <mxCell id="pPajzx2_OC7eIc0y-kV2-9" value="Reconciler" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="pPajzx2_OC7eIc0y-kV2-9" value="Reconciler&lt;br&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;负责找出变化的组件&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="120" y="2252" width="140" height="234" as="geometry" />
         </mxCell>
-        <mxCell id="pPajzx2_OC7eIc0y-kV2-10" value="Renderer" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="pPajzx2_OC7eIc0y-kV2-10" value="Renderer&lt;br&gt;&lt;span style=&quot;color: rgb(44, 62, 80); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;负责将变化的组件渲染到页面上&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="405" y="2252" width="140" height="234" as="geometry" />
         </mxCell>
         <mxCell id="pPajzx2_OC7eIc0y-kV2-11" value="render 阶段" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">

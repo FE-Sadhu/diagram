@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T15:40:15.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="a-FtXpZStNyByvdI8ERP" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T03:34:34.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TebbPdn6EMIp19GE4Hdm" version="20.3.7" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2889" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -304,26 +304,26 @@
         <mxCell id="sFiyX2F20KAacxLbJc7e-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;核心实现&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#D4E1F5;strokeColor=#7EA6E0;fontColor=#666600;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-413" y="2890" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-1">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-3" value="概念" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0N_7cp-LmuYtcSz1ZDCt-2">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-3" value="概念" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0N_7cp-LmuYtcSz1ZDCt-2" vertex="1" connectable="0">
           <mxGeometry x="-0.202" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-4">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-6" value="产出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0N_7cp-LmuYtcSz1ZDCt-5">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-6" value="产出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0N_7cp-LmuYtcSz1ZDCt-5" vertex="1" connectable="0">
           <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-7">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sFiyX2F20KAacxLbJc7e-4" target="0N_7cp-LmuYtcSz1ZDCt-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-9" value="与 Fiber 类比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0N_7cp-LmuYtcSz1ZDCt-8">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-9" value="与 Fiber 类比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0N_7cp-LmuYtcSz1ZDCt-8" vertex="1" connectable="0">
           <mxGeometry x="-0.0818" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -331,14 +331,53 @@
         <mxCell id="sFiyX2F20KAacxLbJc7e-4" value="JSX" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-100" y="3035" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;jsx 是一个语法类似 html 的&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;javascript 的语法扩展。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;在兼具语义的同时，有了灵活性。最终会被编译成 JS 代码，开发者可以随意组织 UI 与逻辑&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;jsx 是一个语法类似 html 的&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;javascript 的语法扩展。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;在兼具语义的同时，有了灵活性。最终会被编译成 JS 代码，开发者可以随意组织 UI 与逻辑&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="2923" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-4" value="React Element&amp;nbsp; ---&amp;nbsp; 描述组件内容的数据结构" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-4" value="React Element&amp;nbsp; ---&amp;nbsp; 描述组件内容的数据结构" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="3030" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-7" value="Fiber 节点是根据 JSX 生成的，包含了 JSX 产出的 React Element 相关信息，额外包含了更新机制相关信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0N_7cp-LmuYtcSz1ZDCt-7" value="Fiber 节点是根据 JSX 生成的，包含了 JSX 产出的 React Element 相关信息，额外包含了更新机制相关信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="3130" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-3" target="fISYXHUTKmFs9SmJLRd4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-3" target="fISYXHUTKmFs9SmJLRd4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-3" target="fISYXHUTKmFs9SmJLRd4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;createRoot&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="2900" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=11;dashed=1;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-5" target="fISYXHUTKmFs9SmJLRd4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-5" value="react-dom" style="shape=display;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="2860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=11;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-7" target="fISYXHUTKmFs9SmJLRd4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-7" value="初始化应用节点&lt;br&gt;（&lt;span style=&quot;color: rgb(97, 175, 239); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;FiberRootNode&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-8" value="初始化 Fiber 树根节点&lt;br&gt;（&lt;span style=&quot;color: rgb(97, 175, 239); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;HostRootFiber&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2990" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-10" value="current" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-11" value="给容器 DOM 注册各种 event" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="2990" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2980" width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fISYXHUTKmFs9SmJLRd4-16" value="react-reconciler" style="shape=display;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="3055" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

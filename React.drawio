@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T15:23:51.469Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Yj_OCBwm-TzAsd9pcRbY" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T17:00:53.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5Ck-JluaTuFFS3Npi9k-" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
     <mxGraphModel dx="1700" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -402,6 +402,9 @@
             <mxPoint x="1284.5699999999997" y="3400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fISYXHUTKmFs9SmJLRd4-22" target="aRxVN6YvHYAeyqY4KFQ6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fISYXHUTKmFs9SmJLRd4-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;mount 流程&lt;br&gt;&lt;/span&gt;(应用根节点.render(ReactElement))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1187.5" y="3420" width="202.5" height="60" as="geometry" />
         </mxCell>
@@ -675,6 +678,84 @@
         </mxCell>
         <mxCell id="aRxVN6YvHYAeyqY4KFQ6-5" value="初始化 Fiber.updateQueue" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1270" y="3070" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-7" target="aRxVN6YvHYAeyqY4KFQ6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-7" target="aRxVN6YvHYAeyqY4KFQ6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-7" target="aRxVN6YvHYAeyqY4KFQ6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-7" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;updateContainer&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1153.13" y="3560" width="271.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-9" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;请求一个 eventTime 时间戳&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(performance.now() 获取的时间戳精度到微秒级别，若不支持则 Date.now())&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="3710" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-11" target="aRxVN6YvHYAeyqY4KFQ6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-11" target="aRxVN6YvHYAeyqY4KFQ6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-11" value="请求一个 Lane 模型" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1228.75" y="3725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-13" value="..." style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-15" target="aRxVN6YvHYAeyqY4KFQ6-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="3935" />
+              <mxPoint x="1195" y="3935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-21" value="NoLane" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRxVN6YvHYAeyqY4KFQ6-20">
+          <mxGeometry x="-0.0828" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-15" target="aRxVN6YvHYAeyqY4KFQ6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-24" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRxVN6YvHYAeyqY4KFQ6-23">
+          <mxGeometry x="0.1106" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-15" value="获取当前全局变量的优先级&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;getCurrentUpdatePriority&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1213.12" y="3840" width="151.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-19" target="aRxVN6YvHYAeyqY4KFQ6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-19" target="aRxVN6YvHYAeyqY4KFQ6-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-19" value="判断是否是触发事件导致走入 updateContainer" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="3970" width="194.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-22" value="返回该优先级" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1284.6799999999998" y="3990" width="100.63" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-25" value="返回事件对应优先级" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="973" y="4070" width="127" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-27" value="返回默认优先级 DefaultLane&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="4070" width="194.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-31" target="aRxVN6YvHYAeyqY4KFQ6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-31" value="创建一个 Update 对象，&lt;br&gt;赋于 eventTime、Lane、React Element、callback(mount 时为 null)" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1578.75" y="3710" width="271.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aRxVN6YvHYAeyqY4KFQ6-33" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;enqueueUpdate() 把 update 入 Update 队列&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1577.18" y="3900" width="274.38" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

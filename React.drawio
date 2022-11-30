@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T16:40:07.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="snmlfOsb3pJ5NBFBWl68" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T15:52:53.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="waWI-nG-5laopDmS3bTn" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2944" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2705" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -690,7 +690,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-13" value="①" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRxVN6YvHYAeyqY4KFQ6-10">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-13" value="①" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aRxVN6YvHYAeyqY4KFQ6-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2282" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -700,7 +700,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-14" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRxVN6YvHYAeyqY4KFQ6-12">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-14" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aRxVN6YvHYAeyqY4KFQ6-12" vertex="1" connectable="0">
           <mxGeometry x="-0.2417" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -715,19 +715,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-15" value="③" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aRxVN6YvHYAeyqY4KFQ6-32">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-15" value="③" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aRxVN6YvHYAeyqY4KFQ6-32" vertex="1" connectable="0">
           <mxGeometry x="-0.712" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-7" target="3x2RcBU6eseKqyPGiWir-11">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-7" target="3x2RcBU6eseKqyPGiWir-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1357" y="3680" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-16" value="④" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3x2RcBU6eseKqyPGiWir-12">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-16" value="④" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3x2RcBU6eseKqyPGiWir-12" vertex="1" connectable="0">
           <mxGeometry x="-0.4778" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -798,40 +798,40 @@
         <mxCell id="aRxVN6YvHYAeyqY4KFQ6-31" value="创建一个 Update 对象，&lt;br&gt;赋于 eventTime、Lane、React Element、callback(mount 时为 null)" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1358.29" y="3710" width="271.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-33" target="3x2RcBU6eseKqyPGiWir-1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aRxVN6YvHYAeyqY4KFQ6-33" target="3x2RcBU6eseKqyPGiWir-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aRxVN6YvHYAeyqY4KFQ6-33" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;enqueueUpdate() 把 update 入&amp;nbsp;&lt;/span&gt;concurrentQueues&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;队列&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1356.72" y="3900" width="274.38" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-1" target="3x2RcBU6eseKqyPGiWir-3">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-1" target="3x2RcBU6eseKqyPGiWir-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-1" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;update.next = update 成环&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-1" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;update.next = update 成环&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1433.91" y="4047.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-3" target="3x2RcBU6eseKqyPGiWir-5">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-3" target="3x2RcBU6eseKqyPGiWir-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-3" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;pushConcurrentUpdateQueue(fiber.updateQueue.shared)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(concurrentQueues = [&lt;/span&gt;fiber.updateQueue.shared&lt;span style=&quot;font-size: 11px;&quot;&gt;])&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-3" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;pushConcurrentUpdateQueue(fiber.updateQueue.shared)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(concurrentQueues = [&lt;/span&gt;fiber.updateQueue.shared&lt;span style=&quot;font-size: 11px;&quot;&gt;])&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1309.54" y="4190" width="369.84" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-5" target="3x2RcBU6eseKqyPGiWir-7">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-5" target="3x2RcBU6eseKqyPGiWir-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-5" value="fiber.updateQueue.shared.interleaved = update" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-5" value="fiber.updateQueue.shared.interleaved = update" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1336.92" y="4333.75" width="315.08" height="66.25" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-7" target="3x2RcBU6eseKqyPGiWir-9">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-7" target="3x2RcBU6eseKqyPGiWir-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-7" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;合并优先级&lt;br&gt;fiber.lanes = mergeLanes(fiber.lanes, update.lane)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-7" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;合并优先级&lt;br&gt;fiber.lanes = mergeLanes(fiber.lanes, update.lane)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1301.3700000000001" y="4480" width="385.08" height="66.88" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-9" value="从当前 fiber 节点往上，边找 parent 节点边 merge 其 childLanes 和 update.lane ，直到找到 FiberRootNode 则返回" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-9" value="从当前 fiber 节点往上，边找 parent 节点边 merge 其 childLanes 和 update.lane ，直到找到 FiberRootNode 则返回" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1321.6499999999999" y="4630.32" width="345.63" height="59.68" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-17">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1930" y="3780" />
@@ -839,28 +839,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-20">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-23">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-11" target="3x2RcBU6eseKqyPGiWir-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-11" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;调度 Fiber 树的更新&lt;br&gt;scheduleUpdateOnFiber&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-11" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;调度 Fiber 树的更新&lt;br&gt;scheduleUpdateOnFiber&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="3640" width="271.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-17" value="应用根节点.pendingLanes 按位或上本次 Lane&lt;br&gt;FiberRootNode.pendingLanes |= lane" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-17" value="应用根节点.pendingLanes 按位或上本次 Lane&lt;br&gt;FiberRootNode.pendingLanes |= lane" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1654" y="3830" width="304.38" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-20" value="应用根节点.eventTimes 数组赋进 eventTime" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-20" value="应用根节点.eventTimes 数组赋进 eventTime" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1987.81" y="3825" width="304.38" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-23" target="3x2RcBU6eseKqyPGiWir-25">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-23" target="3x2RcBU6eseKqyPGiWir-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-23" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ensureRootIsScheduled&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-23" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ensureRootIsScheduled&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2330" y="3810" width="271.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-27">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2620" y="3988" />
@@ -868,23 +868,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-29">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-31">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-25" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;确定下一个要处理的 Lanes 及其优先级&lt;br&gt;&lt;/span&gt;（getNextLanes）" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="Wg0T7DLf7yKrjivn-nzg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3x2RcBU6eseKqyPGiWir-25" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;确定下一个要处理的 Lanes 及其优先级&lt;br&gt;&lt;/span&gt;（getNextLanes）" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2330" y="3965" width="271.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-27" value="找到 pendingLanes&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;中最高优先级的赛道&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-27" value="找到 pendingLanes&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;中最高优先级的赛道&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2650" y="3865" width="270" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-29" value="处理是否是被打断的情况 （mount 时不是）" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-29" value="处理是否是被打断的情况 （mount 时不是）" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2670" y="3940" width="210" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="3x2RcBU6eseKqyPGiWir-31" value="判断 root.&lt;span style=&quot;font-size: 11px;&quot;&gt;entangledLanes （mount 时不处理）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="3x2RcBU6eseKqyPGiWir-31" value="判断 root.&lt;span style=&quot;font-size: 11px;&quot;&gt;entangledLanes （mount 时不处理）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2670" y="4015" width="270.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-1" target="Wg0T7DLf7yKrjivn-nzg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-5" value="mount 时否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wg0T7DLf7yKrjivn-nzg-4">
+          <mxGeometry x="-0.2071" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-1" value="判断是否需要中断调度" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2388.4300000000003" y="4130" width="154.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-3" target="Wg0T7DLf7yKrjivn-nzg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-3" value="Lane 优先级转换成 Scheduelr 优先级" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2358.43" y="4273.75" width="214.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-6" target="Wg0T7DLf7yKrjivn-nzg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-6" value="以转换后的优先级开始 Schedule 调度，调度的回调函数是&amp;nbsp;&lt;span style=&quot;color: rgb(97, 175, 239); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;performConcurrentWorkOnRoot&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2193.43" y="4380" width="544.38" height="56.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-8" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2405.62" y="4710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

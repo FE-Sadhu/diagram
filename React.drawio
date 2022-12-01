@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T15:52:53.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="waWI-nG-5laopDmS3bTn" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T15:42:34.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fHe7_D_KjdZ-A4CGyDSw" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2705" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2795" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -874,7 +874,7 @@
         <mxCell id="3x2RcBU6eseKqyPGiWir-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="3x2RcBU6eseKqyPGiWir-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="Wg0T7DLf7yKrjivn-nzg-1">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3x2RcBU6eseKqyPGiWir-25" target="Wg0T7DLf7yKrjivn-nzg-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3x2RcBU6eseKqyPGiWir-25" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;确定下一个要处理的 Lanes 及其优先级&lt;br&gt;&lt;/span&gt;（getNextLanes）" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
@@ -889,31 +889,105 @@
         <mxCell id="3x2RcBU6eseKqyPGiWir-31" value="判断 root.&lt;span style=&quot;font-size: 11px;&quot;&gt;entangledLanes （mount 时不处理）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2670" y="4015" width="270.62" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-1" target="Wg0T7DLf7yKrjivn-nzg-3">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wg0T7DLf7yKrjivn-nzg-1" target="Wg0T7DLf7yKrjivn-nzg-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-5" value="mount 时否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wg0T7DLf7yKrjivn-nzg-4">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-5" value="mount 时否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Wg0T7DLf7yKrjivn-nzg-4" vertex="1" connectable="0">
           <mxGeometry x="-0.2071" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-1" value="判断是否需要中断调度" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-1" value="判断是否需要中断调度" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2388.4300000000003" y="4130" width="154.38" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-3" target="Wg0T7DLf7yKrjivn-nzg-6">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wg0T7DLf7yKrjivn-nzg-3" target="Wg0T7DLf7yKrjivn-nzg-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-3" value="Lane 优先级转换成 Scheduelr 优先级" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-3" value="Lane 优先级转换成 Scheduelr 优先级" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2358.43" y="4273.75" width="214.38" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-6" target="Wg0T7DLf7yKrjivn-nzg-8">
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="Wg0T7DLf7yKrjivn-nzg-6" target="Wg0T7DLf7yKrjivn-nzg-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-6" value="以转换后的优先级开始 Schedule 调度，调度的回调函数是&amp;nbsp;&lt;span style=&quot;color: rgb(97, 175, 239); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;performConcurrentWorkOnRoot&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+        <mxCell id="zejWkrwAieGz4jzIzCRl-1" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;Scheduler&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wg0T7DLf7yKrjivn-nzg-9">
+          <mxGeometry x="-0.0555" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-6" value="以转换后的优先级开始 Schedule 调度，调度的回调函数是&amp;nbsp;&lt;span style=&quot;color: rgb(97, 175, 239); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;performConcurrentWorkOnRoot&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2193.43" y="4380" width="544.38" height="56.25" as="geometry" />
         </mxCell>
-        <mxCell id="Wg0T7DLf7yKrjivn-nzg-8" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2405.62" y="4710" width="120" height="60" as="geometry" />
+        <mxCell id="zejWkrwAieGz4jzIzCRl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wg0T7DLf7yKrjivn-nzg-8" target="zejWkrwAieGz4jzIzCRl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2465" y="4830" />
+              <mxPoint x="2465" y="4830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-2" target="zejWkrwAieGz4jzIzCRl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wg0T7DLf7yKrjivn-nzg-8" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #61afef;&quot;&gt;unstable_scheduleCallback(priorityLevel, callback)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2261.71" y="4700" width="406.57" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-2" value="performance.now() 获取当前时间 startTime" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="4890" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-6" target="zejWkrwAieGz4jzIzCRl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-6" value="根据 Scheduler 优先级获取对应的过期时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2347.81" y="5020" width="234.38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-10" target="zejWkrwAieGz4jzIzCRl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-10" value="创建一个 Task&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;id , // 递增序号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;callback,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;priorityLevel,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;startTime,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;expirationTime, // startTime + 过期时间,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;sortIndex&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2306.87" y="5130" width="317.51" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-12" target="zejWkrwAieGz4jzIzCRl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-16" value="未过期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="zejWkrwAieGz4jzIzCRl-15">
+          <mxGeometry x="0.086" y="4" relative="1" as="geometry">
+            <mxPoint x="-22" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-12" target="zejWkrwAieGz4jzIzCRl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-19" value="已过期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="zejWkrwAieGz4jzIzCRl-18">
+          <mxGeometry x="0.0267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-12" value="判断任务状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2405.625" y="5450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-14" value="..." style="whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="5570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-17" target="zejWkrwAieGz4jzIzCRl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-17" value="把 Task 推进 taskQueue" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="5570" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-20" target="zejWkrwAieGz4jzIzCRl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-20" value="调度一个 Host callback&lt;br&gt;requestHostCallback(flushWork)" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="5710" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-22" target="zejWkrwAieGz4jzIzCRl-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-22" value="用 MessageChannel 发起一个宏任务 （performWorkUntilDeadline）" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2685" y="5880" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zejWkrwAieGz4jzIzCRl-24" value="执行 performWorkUntilDeadline" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2725" y="6035" width="190" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

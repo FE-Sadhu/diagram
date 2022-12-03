@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T10:27:15.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qDNSZ8bh1Dwa66DubT3I" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-03T08:29:45.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="beNfd3TFe3UAil4jE0se" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="2660" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -977,7 +977,7 @@
         <mxCell id="zejWkrwAieGz4jzIzCRl-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="zejWkrwAieGz4jzIzCRl-20" target="zejWkrwAieGz4jzIzCRl-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zejWkrwAieGz4jzIzCRl-20" value="调度一个 Host callback&lt;br&gt;requestHostCallback(flushWork)" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
+        <mxCell id="zejWkrwAieGz4jzIzCRl-20" value="调度一个 Host callback&lt;br&gt;requestHostCallback(flushWork)&lt;br&gt;标志位：&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;scheduledHostCallback&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;flushWork&lt;/span&gt;;&lt;br&gt;&lt;div style=&quot;line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;isMessageLoopRunning&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;true&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2690" y="5710" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zejWkrwAieGz4jzIzCRl-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" parent="1" source="zejWkrwAieGz4jzIzCRl-22" target="zejWkrwAieGz4jzIzCRl-24" edge="1">
@@ -986,8 +986,57 @@
         <mxCell id="zejWkrwAieGz4jzIzCRl-22" value="用 MessageChannel 发起一个宏任务 （performWorkUntilDeadline）" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2685" y="5880" width="270" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2750" y="6120" />
+              <mxPoint x="2400" y="6120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zejWkrwAieGz4jzIzCRl-24" value="执行 performWorkUntilDeadline" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2725" y="6035" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-1" value="记录调度工作开始时间&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;startTime&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="6170" width="220" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-3" value="开始执行调度工作&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;hasMoreWork&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;scheduledHostCallback&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;hasTimeRemaining&lt;/span&gt;, &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2601.25" y="6170" width="390" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5" target="hv3c4ml1yPBO-ntcx-nA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-9" value="无更多工作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-8">
+          <mxGeometry x="0.0529" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2820" y="5830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3243" y="6270" />
+              <mxPoint x="3380" y="6270" />
+              <mxPoint x="3380" y="5830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-12" value="有更多工作，再次开启调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-10">
+          <mxGeometry x="-0.4392" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-5" value="判断调度工作返回值 hasMoreWork" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3100" y="6187.5" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-7" value="停止调度、置空一些标志位。&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;isMessageLoopRunning&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e06c75;&quot;&gt;scheduledHostCallback&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;null&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3005.26" y="6293" width="245" height="107" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

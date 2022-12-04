@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-03T11:18:38.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_YtsqnO8QU7yXSIu9lbu" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T15:42:31.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EgGQzsPxf84aDAis_tEi" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="3123" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -986,7 +986,7 @@
         <mxCell id="zejWkrwAieGz4jzIzCRl-22" value="用 MessageChannel 发起一个宏任务 （performWorkUntilDeadline）" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2685" y="5880" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2750" y="6120" />
@@ -994,36 +994,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-3">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-5">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zejWkrwAieGz4jzIzCRl-24" target="hv3c4ml1yPBO-ntcx-nA-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zejWkrwAieGz4jzIzCRl-24" value="执行 performWorkUntilDeadline" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2725" y="6035" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-1" value="记录调度工作开始时间&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;startTime&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-1" value="记录调度工作开始时间&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;startTime&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="6170" width="220" height="72.5" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-13">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-18">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-3" value="开始执行调度工作&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;hasMoreWork&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;scheduledHostCallback&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;hasTimeRemaining&lt;/span&gt;, &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-3" value="开始执行调度工作&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;hasMoreWork&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #61afef;&quot;&gt;scheduledHostCallback&lt;/span&gt;(&lt;span style=&quot;color: #e5c07b;&quot;&gt;hasTimeRemaining&lt;/span&gt;, &lt;span style=&quot;color: #e5c07b;&quot;&gt;currentTime&lt;/span&gt;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2601.25" y="6170" width="390" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5" target="hv3c4ml1yPBO-ntcx-nA-7">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5" target="hv3c4ml1yPBO-ntcx-nA-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-9" value="无更多工作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-8">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-9" value="无更多工作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hv3c4ml1yPBO-ntcx-nA-8" vertex="1" connectable="0">
           <mxGeometry x="0.0529" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2820" y="5830" as="targetPoint" />
             <Array as="points">
@@ -1033,84 +1033,84 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-12" value="有更多工作，再次开启调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-10">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-12" value="有更多工作，再次开启调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hv3c4ml1yPBO-ntcx-nA-10" vertex="1" connectable="0">
           <mxGeometry x="-0.4392" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-5" value="判断调度工作返回值 hasMoreWork" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-5" value="判断调度工作返回值 hasMoreWork" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="3434.74" y="6191.25" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-7" value="停止调度、置空一些标志位。&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;isMessageLoopRunning&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e06c75;&quot;&gt;scheduledHostCallback&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;null&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-7" value="停止调度、置空一些标志位。&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;isMessageLoopRunning&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;        &lt;span style=&quot;color: #e06c75;&quot;&gt;scheduledHostCallback&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #d19a66;&quot;&gt;null&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="3340" y="6296.75" width="245" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-16">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-3" target="hv3c4ml1yPBO-ntcx-nA-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-13" value="&lt;span style=&quot;font-size: 11px; font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;标志位：&lt;br&gt;isHostCallbackScheduled&lt;/span&gt;&lt;span style=&quot;font-size: 11px; font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;=&lt;/span&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;false&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;isPerformingWork = work&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;previousPriorityLevel = currentPriorityLevel&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-13" value="&lt;span style=&quot;font-size: 11px; font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;标志位：&lt;br&gt;isHostCallbackScheduled&lt;/span&gt;&lt;span style=&quot;font-size: 11px; font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;=&lt;/span&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;false&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Menlo, Monaco, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;isPerformingWork = true&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;previousPriorityLevel = currentPriorityLevel&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2330.0000000000005" y="6420" width="365.62" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-16" target="hv3c4ml1yPBO-ntcx-nA-20">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-16" target="hv3c4ml1yPBO-ntcx-nA-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-16" value="workLoop" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-16" value="workLoop" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2736.25" y="6466.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-18" value="&lt;div&gt;标志位：&lt;br&gt;currentTask = null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; currentPriorityLevel = previousPriorityLevel;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; isPerformingWork = false;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-18" value="&lt;div&gt;标志位：&lt;br&gt;currentTask = null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; currentPriorityLevel = previousPriorityLevel;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; isPerformingWork = false;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2890" y="6403.75" width="390" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-20" target="hv3c4ml1yPBO-ntcx-nA-23">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-20" target="hv3c4ml1yPBO-ntcx-nA-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-20" value="advanceTimers()&lt;br&gt;把 timerQueue 中 startTime&amp;nbsp;已过期的任务移到 taskQueue。&lt;br&gt;保证在执行调度工作时，Task 的执行是符合时间顺序的" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-20" value="advanceTimers()&lt;br&gt;把 timerQueue 中 startTime&amp;nbsp;已过期的任务移到 taskQueue。&lt;br&gt;保证在执行调度工作时，Task 的执行是符合时间顺序的" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2614.06" y="6590" width="365.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-22" value="fs" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-22" value="fs" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3850" y="6460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-23" target="hv3c4ml1yPBO-ntcx-nA-25">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-23" target="hv3c4ml1yPBO-ntcx-nA-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-23" value="从 taskQueue 中取出 startTime 最近的一个 task" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-23" value="从 taskQueue 中取出 startTime 最近的一个 task" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2646.25" y="6760" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-25" target="hv3c4ml1yPBO-ntcx-nA-27">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-25" target="hv3c4ml1yPBO-ntcx-nA-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-29" value="已失效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-28">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-29" value="已失效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="hv3c4ml1yPBO-ntcx-nA-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0979" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-31" value="还未失效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-25" target="hv3c4ml1yPBO-ntcx-nA-30">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-31" value="还未失效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-25" target="hv3c4ml1yPBO-ntcx-nA-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-25" value="判断该 Task 是否过了失效时间（&lt;span style=&quot;color: rgb(224, 108, 117); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;expirationTime&lt;/span&gt;）" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-25" value="判断该 Task 是否过了失效时间（&lt;span style=&quot;color: rgb(224, 108, 117); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;expirationTime&lt;/span&gt;）" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2619.37" y="6890" width="355.01" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-27" value="" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-27" value="" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2736.865" y="7157.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-30" target="hv3c4ml1yPBO-ntcx-nA-27">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-30" target="hv3c4ml1yPBO-ntcx-nA-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-34" value="不交出执行权，继续执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-33">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-34" value="不交出执行权，继续执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="hv3c4ml1yPBO-ntcx-nA-33" vertex="1" connectable="0">
           <mxGeometry x="0.0999" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="hv3c4ml1yPBO-ntcx-nA-30" target="hv3c4ml1yPBO-ntcx-nA-37">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="hv3c4ml1yPBO-ntcx-nA-30" target="hv3c4ml1yPBO-ntcx-nA-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-39" value="交出执行权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="hv3c4ml1yPBO-ntcx-nA-38">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-39" value="交出执行权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="hv3c4ml1yPBO-ntcx-nA-38" vertex="1" connectable="0">
           <mxGeometry x="0.0814" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-30" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;判断是否应该交出执行权&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;shouldYieldToHost();&lt;br&gt;1. 执行时间 &amp;lt; 5ms ，继续执行&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;enableIsInputPending 为 true 前提，还有以下 2. 3. 规则&lt;/span&gt;&lt;/div&gt;&amp;nbsp;2. 5 ms &amp;lt; 执行时间 &amp;lt; 50 ms，且无用户输入事件，继续执行&lt;br&gt;3. 50 ms &amp;lt; 执行时间 &amp;lt; 300 ms，且无用户输入事件，继续执行&lt;br&gt;&lt;br&gt;其余情况，交出执行权。&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-30" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;判断是否应该交出执行权&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 17px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;shouldYieldToHost();&lt;br&gt;1. 执行时间 &amp;lt; 5ms ，继续执行&lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); line-height: 17px;&quot;&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;enableIsInputPending 为 true 前提，还有以下 2. 3. 规则&lt;/span&gt;&lt;/div&gt;&amp;nbsp;2. 5 ms &amp;lt; 执行时间 &amp;lt; 50 ms，且无用户输入事件，继续执行&lt;br&gt;3. 50 ms &amp;lt; 执行时间 &amp;lt; 300 ms，且无用户输入事件，继续执行&lt;br&gt;&lt;br&gt;其余情况，交出执行权。&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1553.91" y="6812.5" width="740" height="305" as="geometry" />
         </mxCell>
-        <mxCell id="hv3c4ml1yPBO-ntcx-nA-37" value="停止继续执行" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="hv3c4ml1yPBO-ntcx-nA-37" value="停止继续执行" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1181.3700000000001" y="6935" width="120" height="60" as="geometry" />
         </mxCell>
       </root>

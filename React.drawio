@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T14:48:05.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GS_1kG_kH6WmFOE9JTUt" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T15:45:15.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yTWXzzN0WOBHhMiO596-" version="20.6.0" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
     <mxGraphModel dx="3258" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1154,6 +1154,37 @@
           <mxGeometry x="-0.0778" y="-3" relative="1" as="geometry">
             <mxPoint x="-6" y="-7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-56" value="FiberRootNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5570" y="5007.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-57" value="FiberRoot &lt;br&gt;(currentFiber)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5430" y="5112.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oCu3c_4qjf_qtWXBNXI8-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5620" y="5077.5" as="sourcePoint" />
+            <mxPoint x="5490" y="5107.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-59" value="current" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oCu3c_4qjf_qtWXBNXI8-58">
+          <mxGeometry x="-0.0778" y="-3" relative="1" as="geometry">
+            <mxPoint x="-7" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="oCu3c_4qjf_qtWXBNXI8-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5440" y="5107.5" as="sourcePoint" />
+            <mxPoint x="5500" y="5117.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-61" value="stateNode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oCu3c_4qjf_qtWXBNXI8-60">
+          <mxGeometry x="-0.0778" y="-3" relative="1" as="geometry">
+            <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oCu3c_4qjf_qtWXBNXI8-62" value="WorkInProgress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5720" y="5112.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

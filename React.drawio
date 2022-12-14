@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T15:46:53.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SU0Ye95FWuFHneuJQxPO" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T16:23:29.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_2O8PI_1Km9JQfGqXy72" version="20.6.2" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
     <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1348,11 +1348,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="92o-9vfUZrvHWGH8yERW-38" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;reconcileSingleElement(returnFiber, currentFirstChild, element, lanes)&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="5352.63" y="6740" width="418.25" height="62.5" as="geometry" />
+        <mxCell id="92o-9vfUZrvHWGH8yERW-38" value="workInProgress.child =&amp;nbsp;&lt;span style=&quot;font-size: 11px;&quot;&gt;reconcileSingleElement(returnFiber, currentFirstChild, element, lanes)&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="5292.5" y="6740" width="537.37" height="60" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-40" value="复用子节点等..." style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="5111" y="6869" width="418.25" height="62.5" as="geometry" />
+          <mxGeometry x="4940" y="6869" width="418.25" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="92o-9vfUZrvHWGH8yERW-43" target="92o-9vfUZrvHWGH8yERW-46">
           <mxGeometry relative="1" as="geometry" />
@@ -1361,10 +1361,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-43" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;根据 element 创建 newFiber&lt;br&gt;createFiberFromElement(element, returnFiber.mode, lanes);&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="5640" y="6869" width="418.25" height="62.5" as="geometry" />
+          <mxGeometry x="5700" y="6874.75" width="418.25" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-46" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;根据 elment.type 类型创建 newFiber&lt;br&gt;createFiberFromTypeAndProps&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="6110" y="6860.25" width="280" height="80" as="geometry" />
+          <mxGeometry x="6170" y="6866" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-48" value="FiberRootNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6540" y="6992.499999999999" width="120" height="60" as="geometry" />
@@ -1410,6 +1410,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="92o-9vfUZrvHWGH8yERW-72" value="child" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="92o-9vfUZrvHWGH8yERW-58" target="92o-9vfUZrvHWGH8yERW-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-58" value="WorkInProgress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6690" y="7097.499999999999" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1428,7 +1431,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-61" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;newFiber.return = returnFiber;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="5704.13" y="6995" width="290" height="55" as="geometry" />
+          <mxGeometry x="5764.13" y="7000.75" width="290" height="55" as="geometry" />
         </mxCell>
         <mxCell id="92o-9vfUZrvHWGH8yERW-66" value="return" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="92o-9vfUZrvHWGH8yERW-64" target="92o-9vfUZrvHWGH8yERW-58">
           <mxGeometry relative="1" as="geometry" />
@@ -1436,8 +1439,17 @@
         <mxCell id="92o-9vfUZrvHWGH8yERW-64" value="newFiber" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="6690" y="7237.499999999999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="92o-9vfUZrvHWGH8yERW-67" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;placeSingleChild(newFiber)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="5728.6900000000005" y="7127.5" width="240.87" height="72.5" as="geometry" />
+        <mxCell id="92o-9vfUZrvHWGH8yERW-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="92o-9vfUZrvHWGH8yERW-67" target="92o-9vfUZrvHWGH8yERW-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="92o-9vfUZrvHWGH8yERW-67" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;给 Fiber.flag 打上 Placement 标记&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;placeSingleChild(newFiber)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;newFiber.flags |= Placement;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="5788.6900000000005" y="7133.25" width="240.87" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="92o-9vfUZrvHWGH8yERW-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.587;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="92o-9vfUZrvHWGH8yERW-69" target="92o-9vfUZrvHWGH8yERW-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="92o-9vfUZrvHWGH8yERW-69" value="return newFiber" style="whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;rounded=1;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="5849.125000000001" y="7292" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

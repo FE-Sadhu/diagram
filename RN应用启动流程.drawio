@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T09:22:18.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i6ala-6i9OAPTcmxJzR-" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:15:57.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="saHDx-U7j2jKoUw2qlZj" version="22.1.2" type="github">
   <diagram name="第 1 页" id="JWHxzgRKwtt8k-8PDTWB">
     <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,11 +179,74 @@
         <mxCell id="OL5lFth6ROFDvuXjXP_k-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-74" target="OL5lFth6ROFDvuXjXP_k-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-74" target="OL5lFth6ROFDvuXjXP_k-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-83" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-82">
+          <mxGeometry x="-0.2437" y="-3" relative="1" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-74" target="OL5lFth6ROFDvuXjXP_k-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-86" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-85">
+          <mxGeometry x="-0.1011" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OL5lFth6ROFDvuXjXP_k-74" value="通过 JNI 直接调 c++ 代码异步加载 bundle&lt;br&gt;jniLoadScriptFromAssets" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1206.25" y="2020" width="167.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OL5lFth6ROFDvuXjXP_k-77" value="记录初始化上下文结束 Tag&lt;br&gt;CREATE_REACT_CONTEXT_END&lt;br&gt;&lt;br&gt;记录开始加载 JS Bundle Tag&lt;br&gt;RUN_JS_BUNDLE_START" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="850" y="2005" width="266.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-81" target="OL5lFth6ROFDvuXjXP_k-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-81" target="OL5lFth6ROFDvuXjXP_k-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-81" value="Native 加载 JS Bundle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1453.75" y="2020" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-84" target="OL5lFth6ROFDvuXjXP_k-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-89" value="异步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-88">
+          <mxGeometry x="-0.0182" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-84" target="OL5lFth6ROFDvuXjXP_k-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-84" value="开新线程处理&amp;nbsp;setupReactContext" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="2160" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-87" target="OL5lFth6ROFDvuXjXP_k-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-87" value="再开新线程同步初始化所有 Native Module（除了懒加载的）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-90" target="OL5lFth6ROFDvuXjXP_k-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-90" value="attachRootViewToInstance" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-92" value="记录结束 loading bridge&lt;br&gt;REACT_BRIDGE_LOADING_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="2290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-94" value="记录开始初始化标签：&lt;br&gt;NATIVE_MODULE_INITIALIZE_START&lt;br&gt;记录结束初始化标签：&lt;br&gt;NATIVE_MODULE_INITIALIZE_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-98" value="记录开始加载 TAG&lt;br&gt;RUN_JS_BUNDLE_START&lt;br&gt;记录加载完成 TAG&lt;br&gt;RUN_JS_BUNDLE_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1452.5" y="1890" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-100" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2020" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

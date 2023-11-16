@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T10:15:57.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="saHDx-U7j2jKoUw2qlZj" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T10:22:52.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OlAdD6t8n7v2QK344NZd" version="22.1.2" type="github">
   <diagram name="第 1 页" id="JWHxzgRKwtt8k-8PDTWB">
     <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,6 +207,11 @@
         <mxCell id="OL5lFth6ROFDvuXjXP_k-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-81" target="OL5lFth6ROFDvuXjXP_k-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-103" value="加载完成后立即执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-101">
+          <mxGeometry x="0.0957" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OL5lFth6ROFDvuXjXP_k-81" value="Native 加载 JS Bundle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1453.75" y="2020" width="167.5" height="60" as="geometry" />
         </mxCell>
@@ -243,10 +248,16 @@
           <mxGeometry x="730" y="2290" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OL5lFth6ROFDvuXjXP_k-98" value="记录开始加载 TAG&lt;br&gt;RUN_JS_BUNDLE_START&lt;br&gt;记录加载完成 TAG&lt;br&gt;RUN_JS_BUNDLE_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1452.5" y="1890" width="167.5" height="60" as="geometry" />
+          <mxGeometry x="1453.75" y="1890" width="167.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OL5lFth6ROFDvuXjXP_k-100" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="2020" width="120" height="60" as="geometry" />
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-100" target="OL5lFth6ROFDvuXjXP_k-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-100" value="从入口文件执行业务代码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2020" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-104" value="1. 在根组件 useEffect 里打印日志记录时间，证明此时根组件已被绘制在容器。（尽管此时还被启动页遮罩）&lt;br&gt;2. 在&amp;nbsp;doFinishLauch 改变&amp;nbsp;waitForLauch resolve 数组后打日志记录时间，代表&amp;nbsp;startLaunch 模块已被初始化完，开始判断页面导航，取消启动画面展示" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="2000" width="360" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

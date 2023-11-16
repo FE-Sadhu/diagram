@@ -1,9 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T06:16:49.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.2" etag="UIlzaTwNpvCyRfKDcTVu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T09:22:18.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i6ala-6i9OAPTcmxJzR-" version="22.1.2" type="github">
   <diagram name="第 1 页" id="JWHxzgRKwtt8k-8PDTWB">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-1" target="OL5lFth6ROFDvuXjXP_k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-1" value="冷启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-2" target="OL5lFth6ROFDvuXjXP_k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-2" value="进程初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-4" target="OL5lFth6ROFDvuXjXP_k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-4" value="创建并初始化 MainActivity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-6" target="OL5lFth6ROFDvuXjXP_k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-6" value="ReactActivity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-10" target="OL5lFth6ROFDvuXjXP_k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-10" value="初始化 ReactDelegate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-12" target="OL5lFth6ROFDvuXjXP_k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-12" target="OL5lFth6ROFDvuXjXP_k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-12" value="createRootView" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-14" target="OL5lFth6ROFDvuXjXP_k-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-14" value="getReactInstanceManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-18" value="onMeasure()&amp;nbsp;&lt;br&gt;可计算从冷启动到首屏绘制第一帧时间。&lt;br&gt;TTID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-22" target="OL5lFth6ROFDvuXjXP_k-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-22" value="startReactApplication" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-24" target="OL5lFth6ROFDvuXjXP_k-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-24" value="createReactContextInBackgroundInner" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="510" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-26" target="OL5lFth6ROFDvuXjXP_k-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-31" value="dev 下从 metro 服务端 fetch 下载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-30">
+          <mxGeometry x="-0.2348" y="-3" relative="1" as="geometry">
+            <mxPoint x="1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-26" target="OL5lFth6ROFDvuXjXP_k-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-34" value="本地加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-33">
+          <mxGeometry x="-0.1048" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-26" value="是否需要 Fetch JS Bundle" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="640" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-29" target="OL5lFth6ROFDvuXjXP_k-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-43" value="下载完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-42">
+          <mxGeometry x="-0.6023" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-29" value="省略与 Metro 交互的策略：判断有没有 bundle 缓存、用户有没有开 debug 等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="647.5" width="150" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-32" target="OL5lFth6ROFDvuXjXP_k-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-32" target="OL5lFth6ROFDvuXjXP_k-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-57" value="异步执行（线程）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-45">
+          <mxGeometry x="-0.1467" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-32" value="runCreateReactContextOnNewThread&lt;br&gt;开启新线程执行初始化工作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="860" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-36" value="&lt;div&gt;开始 load bridge Tag :&lt;/div&gt;&lt;div&gt;REACT_BRIDGE_LOADING_START&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="835" y="860" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-44" target="OL5lFth6ROFDvuXjXP_k-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-44" target="OL5lFth6ROFDvuXjXP_k-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-44" value="createReactContext&lt;br&gt;执行初始化工作" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="1000" width="150" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-49" value="记录初始化上下文开始 Tag&lt;br&gt;CREATE_REACT_CONTEXT_START" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1000" width="235" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-53" target="OL5lFth6ROFDvuXjXP_k-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-53" target="OL5lFth6ROFDvuXjXP_k-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-53" value="processPackages&lt;br&gt;同步全量注册 Java Native Module(auto link 的第三方依赖)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1142.5" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-58" value="记录开始、结束 Tag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PROCESS_PACKAGES_START&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;BUILD_NATIVE_MODULE_REGISTRY_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="1142.5" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-60" target="OL5lFth6ROFDvuXjXP_k-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-60" value="catalystInstance = catalystInstanceBuilder.build()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1290" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-64" target="OL5lFth6ROFDvuXjXP_k-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-64" target="OL5lFth6ROFDvuXjXP_k-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-64" value="initializeBridge()【so 库】" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1437.5" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-66" value="记录初始化 bridge 开始、结束 TAG&lt;br&gt;CREATE_CATALYST_INSTANCE_START&lt;br&gt;CREATE_CATALYST_INSTANCE_END" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="767.5" y="1437.5" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-68" target="OL5lFth6ROFDvuXjXP_k-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-68" value="（如果开发者有设置的话）初始化 turboModule、JSI 等 Modules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1585" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-70" target="OL5lFth6ROFDvuXjXP_k-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-70" value="（如果开发者有设置的话）初始化 turboModule、JSI 等 Modules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="1732.5" width="295" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-72" target="OL5lFth6ROFDvuXjXP_k-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-76" value="按策略选择加载方式，此处只分析 release 包情况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OL5lFth6ROFDvuXjXP_k-75">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-72" value="runJSBundle()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1206.25" y="1880" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="OL5lFth6ROFDvuXjXP_k-74" target="OL5lFth6ROFDvuXjXP_k-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-74" value="通过 JNI 直接调 c++ 代码异步加载 bundle&lt;br&gt;jniLoadScriptFromAssets" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1206.25" y="2020" width="167.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OL5lFth6ROFDvuXjXP_k-77" value="记录初始化上下文结束 Tag&lt;br&gt;CREATE_REACT_CONTEXT_END&lt;br&gt;&lt;br&gt;记录开始加载 JS Bundle Tag&lt;br&gt;RUN_JS_BUNDLE_START" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="2005" width="266.25" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

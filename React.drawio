@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T09:15:39.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="lTa_lw8N1JlhTXXNWJ-8" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T13:45:12.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="SpvAdmGo5JWLVT1BUif0" version="23.1.7" type="github">
   <diagram id="8VcVCVTn3-Plq7ZN7-Ow" name="第 1 页">
-    <mxGraphModel dx="1831" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1598,32 +1598,57 @@
         <mxCell id="uZ5yWinYhop2w1EWAtme-16" value="退出调度流程，等待下一次注册调度" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3190" y="7895" width="202.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-1" value="FiberRootNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-1" value="FiberRootNode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7945" y="6690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-4" value="HostFiber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-4" value="HostFiber" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="7805" y="6795" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ieN-2Jtr6Afc6U1WDU9T-1">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ieN-2Jtr6Afc6U1WDU9T-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="7995" y="6760" as="sourcePoint" />
             <mxPoint x="7865" y="6790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-6" value="current" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ieN-2Jtr6Afc6U1WDU9T-5">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-6" value="current" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ieN-2Jtr6Afc6U1WDU9T-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0778" y="-3" relative="1" as="geometry">
             <mxPoint x="-7" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ieN-2Jtr6Afc6U1WDU9T-1">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ieN-2Jtr6Afc6U1WDU9T-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="7815" y="6790" as="sourcePoint" />
             <mxPoint x="7875" y="6800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-8" value="stateNode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ieN-2Jtr6Afc6U1WDU9T-7">
+        <mxCell id="ieN-2Jtr6Afc6U1WDU9T-8" value="stateNode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ieN-2Jtr6Afc6U1WDU9T-7" vertex="1" connectable="0">
           <mxGeometry x="-0.0778" y="-3" relative="1" as="geometry">
             <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ymK5n-082e8FDZc_PM6C-1" value="HostFiber(WIP)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8106" y="6794.999999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ymK5n-082e8FDZc_PM6C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ieN-2Jtr6Afc6U1WDU9T-4" target="ymK5n-082e8FDZc_PM6C-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7925" y="6812.5" as="sourcePoint" />
+            <mxPoint x="8095" y="6812.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ymK5n-082e8FDZc_PM6C-3" value="alternate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ymK5n-082e8FDZc_PM6C-2">
+          <mxGeometry x="0.0131" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ymK5n-082e8FDZc_PM6C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ymK5n-082e8FDZc_PM6C-1" target="ieN-2Jtr6Afc6U1WDU9T-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8106" y="6838" as="sourcePoint" />
+            <mxPoint x="7936" y="6838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ymK5n-082e8FDZc_PM6C-5" value="alternate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="ymK5n-082e8FDZc_PM6C-4">
+          <mxGeometry x="0.1529" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

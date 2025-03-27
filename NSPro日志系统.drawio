@@ -7,6 +7,13 @@
         <mxCell id="XflOVn9j-JNl80lCWjgw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XflOVn9j-JNl80lCWjgw-1" target="XflOVn9j-JNl80lCWjgw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XflOVn9j-JNl80lCWjgw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XflOVn9j-JNl80lCWjgw-1" target="XflOVn9j-JNl80lCWjgw-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XflOVn9j-JNl80lCWjgw-1" value="记录日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
         </mxCell>
@@ -57,6 +64,17 @@
         </mxCell>
         <mxCell id="XflOVn9j-JNl80lCWjgw-18" value="首次 OTA 上来后的老日志接入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XflOVn9j-JNl80lCWjgw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XflOVn9j-JNl80lCWjgw-20" target="XflOVn9j-JNl80lCWjgw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XflOVn9j-JNl80lCWjgw-25" value="拼上模块、异常堆栈、错误信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XflOVn9j-JNl80lCWjgw-24">
+          <mxGeometry x="-0.158" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XflOVn9j-JNl80lCWjgw-20" value="crash 捕获" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
